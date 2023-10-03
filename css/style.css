@@ -109,7 +109,7 @@ a.menu-logo {
 
 @media (max-width:739px){
 	.intro{
-		padding: 40px 0;
+		padding: 60px 0;
 	}
 }
 
@@ -161,16 +161,17 @@ a.menu-logo {
 	position:relative;
 }
   
-.sobre p {
+.sobre > p {
 	font-size: 1.25em;
 	line-height: 1.4em;
 	font-style: italic;
 	text-align: center;
 	margin: 20px auto;
 	max-width: 660px;
+	
 }
 
-@media (min-width:740px) and @media (max-width:980px){
+@media (min-width:740px) and (max-width:980px){
 	.sobre-container{
 		max-width: 720px;
 	}
@@ -180,7 +181,7 @@ a.menu-logo {
 
 }
 
-@media (min-width:739px){
+@media (max-width:739px){
 	.sobre-container{
 		max-width: 300px;
 	}
@@ -233,7 +234,7 @@ a.menu-logo {
 	border-radius: 50%;
 	margin: 20px auto;
 	border: 5px solid #e7e4d8;
-	box-shadow: 0 0 0 10px currentColor;
+	box-shadow: 0 0 0 5px currentColor;
 }
 
 h2.pretinho::before{
@@ -261,7 +262,7 @@ h2.cafecomleite::before{
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 15px;
+	padding: 15px 0;
 	margin: 20px auto 0 auto;
 }
 
@@ -344,7 +345,7 @@ h2.cafecomleite::before{
 
 }
 
-@media (min-width:740px) and @media (max-width:980px){
+@media (min-width:740px) and (max-width:980px){
 	.locais{
 		max-width: 720px;
 	}
@@ -433,7 +434,7 @@ h2.cafecomleite::before{
 }
 
 
-@media (min-width:740px) and @media (max-width:980px){
+@media (min-width:740px) and (max-width:980px){
 	
 	.assine-container{
 		max-width: 720px;
